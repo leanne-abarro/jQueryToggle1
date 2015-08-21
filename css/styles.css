@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 30em;
+	margin: 10em auto;
+}
+
+#flip i {
+    margin-left: 1em;
+    font-size: 0.7em;
+}
+
+#panel, #flip {
+    padding: 1em;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 0.1em #c3c3c3;
+    text-transform: uppercase;
+}
+
+#panel {
+    padding: 1em 0;
+    display: none;
+}
+
+#panel ul {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+
+#panel li {
+    padding: 0.5em 0;
+}
